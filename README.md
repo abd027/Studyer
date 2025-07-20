@@ -31,7 +31,7 @@
 
 - **Backend:** Django, Django REST Framework (Python)  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Database:** SQLite (Development), easily swappable with PostgreSQL/MySQL  
+- **Database:** MySQL  
 - **Authentication:** Custom `AbstractUser` model  
 - **Media:** Image uploads via `Pillow`
 
