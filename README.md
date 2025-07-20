@@ -1,10 +1,4 @@
-Awesome, Abdullah! 🎉 Since you've added **all the planned enhancements** to your **Studyer** app (like DRF integration and user dashboard improvements), it's time to update the `README.md` to reflect the **completed status** and show it as a production-ready project.
 
----
-
-Here’s the **final polished version** of your `README.md`, updated to reflect the completed features:
-
-```markdown
 # 📚 Studyer – Study Group Web App
 
 **Studyer** is a full-featured Django-based web application that enables users to create and join study rooms categorized by topics. It provides an engaging, community-driven platform for learners and developers to collaborate, communicate, and grow together.
