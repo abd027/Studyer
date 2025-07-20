@@ -6,5 +6,5 @@ urlpatterns=[
     path('rooms/', views.getRooms),
     path('rooms/<str:pk>', views.getRoom),
     path('topics/', views.getTopics),
-    path('/topics/<str:pk>', views.getTopic)
+    path('topics/<str:pk>', views.getTopic)
 ]
