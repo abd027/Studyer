@@ -80,6 +80,22 @@ Studyer/
    python manage.py runserver
    ```
 
+5. **Configure MySQL Database**
+
+Make sure MySQL is installed and a database is created (e.g., `studyer_db`).  
+Update your `settings.py` like so:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'studyer_db',
+        'USER': 'your_mysql_user',
+        'PASSWORD': 'your_mysql_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
 ---
 
 ## 🧪 API Preview (DRF)
