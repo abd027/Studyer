@@ -36,5 +36,5 @@ def getTopics(request):
 @api_view(['GET'])
 def getTopic(request, pk):
     topic = Topic.objects.get(id = pk)
-    serializer = TopicSerializer(topic, many-False)
+    serializer = TopicSerializer(topic, many=False)
     return Response(serializer.data)
