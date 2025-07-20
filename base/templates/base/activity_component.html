@@ -10,7 +10,7 @@
                     <img src="{{message.user.avatar.url}}" />
                 </div>
                 <p>
-                    @{{message.user}}
+                    @{{message.user.username}}
                     <span>{{meesage.created|timesince}} ago</span>
                 </p>
             </a>
@@ -36,16 +36,3 @@
     </div>
     {% endfor %}
 </div>
-
-
-<!-- <h3>Activity Feed</h3>
-<hr />
-{% for message in room_messages %}
-<div>
-    <small><a href="{% url 'user-profile' message.user.id %}">@{{message.user}}</a>&nbsp;&nbsp;&nbsp;</small>
-    <small>{{message.created|timesince}} ago</small>
-    <p>Replied to "{{message.room}}"</p>
-    <p>{{message}}</p>
-</div>
-<hr />
-{% endfor %} -->
